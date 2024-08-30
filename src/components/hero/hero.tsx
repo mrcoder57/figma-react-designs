@@ -4,7 +4,11 @@ import Slider from "./slider"
 
 const Hero = () => {
   return (
-    <div className=" flex flex-row mx-24 gap-x-16"> <Description/> 
+    <div className=" flex lg:flex-row flex-col mx-24 gap-x-16"> 
+    <div className=" absolute top-[355px] left-[560px] z-0 font-bold text-[#e0dede]">
+      <h1 className=" text-9xl">Embellie</h1>
+    </div>
+    <Description/> 
     <Product/>
     <Slider/>
      </div>

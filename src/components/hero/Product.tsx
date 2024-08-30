@@ -9,7 +9,7 @@ const Product = () => {
     setCount((prevCount) => (prevCount > 1 ? prevCount - 1 : 1));
   };
   return (
-    <div className=" flex flex-col items-center">
+    <div className=" flex flex-col items-center z-50">
       <div className=" h-[520px] w-[330px]">
         <img src="/vase.png" alt="vase" className=" w-full h-full" />
       </div>
