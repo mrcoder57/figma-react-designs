@@ -9,7 +9,7 @@ const Navbar = () => {
           Emb <span className=" text-[#968864] ml-[-4px]">ellie</span>
         </h2>
       </div>
-      <div className=" flex flex-row mt-2">
+      <div className=" lg:flex hidden flex-row mt-2">
         <div className=" items-center justify-center first-letter:capitalize ">
           {navlinks.map((link, index) => (
             <a className=" mx-2 first-letter:capitalize text-[10px] text-[#909090]" key={index}>{link.name}</a>

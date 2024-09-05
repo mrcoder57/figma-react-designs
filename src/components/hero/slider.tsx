@@ -2,7 +2,7 @@
 
 const Slider = () => {
   return (
-    <div className=' flex flex-col mt-16'>
+    <div className=' flex flex-col lg:mt-16 mt-[-265px] mb-7 lg:mb-0' >
         <div className=' flex flex-row gap-x-5 items-center'>
             <p className=' text-[#909090] font-sans text-xs'>01</p>
             <p className=' text-[#424241] font-sans text-[16px] font-bold'>Vase</p>
